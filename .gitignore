@@ -9,6 +9,7 @@
 *.vi
 *~
 *.sass-cache
+*.iml
 
 # OS or Editor folders
 .DS_Store
@@ -16,6 +17,10 @@
 .project
 .settings
 .tmproj
+.classpath
+.factorypath
+.faces-config.xml.jsfdia
+.idea
 nbproject
 Thumbs.db
 
@@ -24,3 +29,7 @@ node_modules/
 
 # Brunch folder for temporary files.
 tmp/
+
+# Maven
+target
+MANIFEST.MF
